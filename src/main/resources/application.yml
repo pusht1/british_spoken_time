@@ -1,0 +1,13 @@
+spring:
+  profiles:
+    active: console
+
+---
+spring:
+  config:
+    activate:
+      on-profile: console
+logging:
+  level:
+    org.springframework: WARN
+    org.british.spoken.time: INFO
